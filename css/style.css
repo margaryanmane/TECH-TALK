@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.menu ul{
+    margin-top:-20px;
+}
+.menu a{
+    color:white;
+    font-size:18px;
+}
+
+.big-banner{
+    background-image: url("../image/kids-faded.jpg");
+    background-repeat: no-repeat;
+    height:400px;
+    background-position: center;
+}
+.cursText1{
+    font-size: 24px;
+    font-family:cursive;
+
+}
+.cursText{
+    font-family:cursive;
+    font-size: 20px;
+    line-height: 9px;
+}
+.cursText2{
+    padding-top: 50px;
+}
+
+.imgButt{
+    margin:150px 90px;
+}
+.getStar{
+    padding: 2px 20px !important;
+    border:1.3px solid black !important;
+}
+
+
+/*//////////////////*/
+
+.sec3{
+
+    text-align: center;
+}
+
+.sec3 h2{
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.sec3 p em{
+    font-weight: bold;
+
+}
+.sec3{
+    font-size: 17px;
+}
+
+
+.sec3Img img{
+    margin:10px 20px 10px 80px !important;
+}
+.email{
+    text-align: center;
+    margin:10px 30px 10px 80px !important;
+}
+.email h3{
+    font-weight: 800;
+   font-size: 18px;
+    text-align: center;
+    font-style: italic;
+}
+.email p{
+    color:#989898;
+}
+
+.sec4 h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/*//////////////////////*/
+
+.sec5Img{
+    background-image: url("../image/ContEdRec.jpg");
+    background-repeat: no-repeat;
+    height:400px;
+    margin-top: -32px;
+    background-size: cover;
+}
+
+/*///////////////*/
+
+
+
+.d33  {
+    margin-left: 8px;
+    position: relative;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #F3F3F3;
+    border: 2px solid #666;
+    border-radius: 5px;
+    /*opacity: 0.1;*/
+    float: left;
+    margin-top:28px;
+}
+
+.d33:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 49px;
+    top: 198px;
+    border:13px solid;
+    border-color: #666 transparent transparent #666;
+}
+.d33:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 50px;
+    top: 196px;
+    border: 12px solid;
+    border-color: #fff transparent transparent #fff;
+}
+/*.sec6:nth-child(1){*/
+    /*background-image: url("president.jpg");*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+.d33 img{
+/*opacity: 1;*/
+    margin-left:-270px;
+
+}
+.d33 p{
+    padding: 10px 150px;
+    text-align: left;
+    display: inline-block;
+    line-height: 17px;
+}
+@media all and (max-width: 500px) {
+    .menu {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+
+    }
+    .big-banner{
+        background-size: cover;
+    }
+    .logo {
+        padding: 18px 0 0;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .menu ul li {
+        padding: 3px;
+    }
+
+    /*////////////////////*/
+    .sec2Text {
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .cursText1 {
+        font-size: 18px;
+    }
+    .cursText{
+        font-size: 14px;
+        line-height: 5px;
+    }
+    .cursText2{
+        padding-top: 30px;
+    }
+    .imgButt{
+      margin:100px 100px;
+  }
+    .getStar{
+      padding: 0 10px !important;
+  }
+    .imgButt span{
+      font-size: 10px;
+  }
+}
+
+@media all and (max-width: 900px) {
+
+    .logo {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-left: 50px;
+
+    }
+
+    .menu {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .menu ul {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .menu ul li {
+        padding: 5px;
+    }
+
+    /*//////////////////////////*/
+    .sec2Text {
+        text-align: center;
+        width: 100%;
+        margin-left: 85px;
+    }
+
+    .imgButt{
+        text-align: center;
+        margin-left: 120px;
+    }
+}
